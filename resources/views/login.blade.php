@@ -26,7 +26,7 @@
           <i class="fa-solid fa-lock"></i>
       </div>
       <button type="submit">Iniciar sesión</button>
-      <p class="footer">¿No tienes cuenta? Por favor, <a href="#" class="link">Registrate</a></p>
+      <p class="footer">¿No tienes cuenta? Por favor, <a href="registro" class="link">Registrate</a></p>
     </form>
   </div>
 </body>
