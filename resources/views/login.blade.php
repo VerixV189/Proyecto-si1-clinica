@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iniciar sesión</title>
-  {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
+   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <style>
     body {
     font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
     padding: 0;
     background-color: #f0f0f0;
   }
-  
+
   .container {
     max-width: 400px;
     margin: 100px auto;
@@ -21,27 +21,27 @@
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
   }
-  
+
   .input-group {
     margin-bottom: 15px;
   }
-  
+
   label {
     font-weight: bold;
   }
-  
+
   input[type="text"],
   input[type="password"] {
     padding: 8px;
     border-radius: 3px;
     border: 1px solid #ccc;
   }
-  
+
   button {
     padding: 10px;
     border: none;
@@ -50,11 +50,11 @@
     cursor: pointer;
     border-radius: 3px;
   }
-  
+
   button:hover {
     background-color: #0056b3;
   }
-  
+
   </style>
 </head>
 <body>
