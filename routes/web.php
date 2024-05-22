@@ -25,3 +25,13 @@ Route::post('/myspace', [myspacecontroller::class,'store'])->name('myspace.store
 Route::get('/registro', [RegistroController::class,'index']);
 Route::post('/registro', [RegistroController::class,'store'])->name('registro.store');
 
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
