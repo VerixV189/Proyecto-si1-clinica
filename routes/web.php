@@ -28,9 +28,19 @@ Route::get('/registro', [RegistroController::class,'index']);
 Route::post('/registro', [RegistroController::class,'store'])->name('registro.store');
 */
 
-Route::middleware(['auth:sanctum','verified'])->get('/dash', function () {
+/* Route::middleware(['auth:sanctum','verified'])->get('/dash', function () {
         return view('dash.index');
-    })->name('dash');
+    })->name('dash'); */
+Route::get('/dash','App\Http\Controllers\DashboardController@index');
+
+Route::get('/dash/crud', function () {
+    return view('crud.index');
+});
+
+Route::get('/dash/crud/create', function () {
+    return view('crud.create');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
