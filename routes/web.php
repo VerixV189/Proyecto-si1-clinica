@@ -11,7 +11,7 @@ Route::get('/', function(){
     return view('auth.login');
 });
 
-Route::controller(CursoController::class)->group(function(){
+/*Route::controller(CursoController::class)->group(function(){
     Route::get('cursos', 'index');
     Route::get('cursos/create', 'create');    
     Route::get('cursos/{curso}/{categoria?}', 'show');
@@ -26,8 +26,11 @@ Route::post('/myspace', [myspacecontroller::class,'store'])->name('myspace.store
 
 Route::get('/registro', [RegistroController::class,'index']);
 Route::post('/registro', [RegistroController::class,'store'])->name('registro.store');
-
+*/
 
 Route::middleware(['auth:sanctum','verified'])->get('/dash', function () {
         return view('dash.index');
     })->name('dash');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
