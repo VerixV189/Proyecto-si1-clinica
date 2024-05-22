@@ -7,7 +7,9 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\myspacecontroller;
 use App\Http\Controllers\RegistroController;
 
-Route::get('/', HomeController::class);
+Route::get('/', function(){
+    return view('auth.login');
+});
 
 Route::controller(CursoController::class)->group(function(){
     Route::get('cursos', 'index');
@@ -26,12 +28,6 @@ Route::get('/registro', [RegistroController::class,'index']);
 Route::post('/registro', [RegistroController::class,'store'])->name('registro.store');
 
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+Route::middleware(['auth:sanctum','verified'])->get('/dash', function () {
+        return view('dash.index');
+    })->name('dash');
