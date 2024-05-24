@@ -58,7 +58,8 @@ class PacienteController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $pacientes = Paciente::find($id);
+        return view('paciente.editar')->with('paciente', $pacientes);
     }
 
     /**

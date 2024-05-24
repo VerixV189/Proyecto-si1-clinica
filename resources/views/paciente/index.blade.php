@@ -29,7 +29,7 @@
                 <td>{{$paciente->fechanacimiento}}</td>
                 <td>{{$paciente->direccion}}</td>
                 <td>
-                    <a href="" class="btn btn-info">Editar</a>
+                    <a href="/articulos/{{$paciente->ci}}/editar" class="btn btn-info">Editar</a>
                     <button class="btn btn-danger">Borrar</button>
                 </td>
             </tr>
