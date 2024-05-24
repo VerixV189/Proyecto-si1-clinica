@@ -11,6 +11,7 @@ Route::get('/', function(){
     return view('auth.login');
 });
 
+Route:: resource('pacientes', 'App\Http\Controllers\PacienteController');
 /*Route::controller(CursoController::class)->group(function(){
     Route::get('cursos', 'index');
     Route::get('cursos/create', 'create');    

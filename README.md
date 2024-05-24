@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# DOCUMENTACION COMANDOS DE TERMINAL
+
+php artisan make:model NombreDelModelo -m  **[crea un modelo y la tabla con el nombre del modelo]**
+php artisan make:controller NombreController  --resource  **[crea un controlador y los metodos del controlador]**
+
+# DESCARGAR PLANTILLA DE BOOSTRAP
+[Booststrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/download)

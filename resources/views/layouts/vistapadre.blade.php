@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,7 +11,6 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Vista Padre</h1>
 
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
