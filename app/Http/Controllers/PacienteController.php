@@ -59,22 +59,37 @@ class PacienteController extends Controller
     public function edit(string $id)
     {
         $pacientes = Paciente::find($id);
-        return view('paciente.editar')->with('paciente', $pacientes);
+        return view('paciente.editar')->with('pacientes', $pacientes);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, $id)
     {
-        //
+        $paciente = Paciente::find($id);
+
+        $paciente->ci = $request->get('ci');
+        $paciente->nombre = $request->get('nombre');
+        $paciente->apellido = $request->get('apellido');
+        $paciente->email = $request->get('email');
+        $paciente->sexo = $request->get('sexo');
+        $paciente->telefono = $request->get('telefono');
+        $paciente->fechaNacimiento = $request->get('fechaNacimiento');
+        $paciente->direccion = $request->get('direccion');
+
+        $paciente->save();
+        return redirect('/pacientes');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy( $id)
     {
-        //
+        $paciente = Paciente::find($id);
+        $paciente->delete();
+        
+        return redirect('/pacientes');
     }
 }

@@ -1,8 +1,12 @@
-@extends('layouts.vistapadre')
+@extends('adminlte::page')
 
-@section('contenidoPrincipal')
-    <h2>CREAR REGISTROS DE PACIENTES</h2>
+@section('title', 'Dashboard')
 
+@section('content_header')
+    <h1>REGISTRAR NUEVO PACIENTE</h1>
+@stop
+
+@section('content')
     <form action="/pacientes" method="POST">
         @csrf
         <div class="mb-3">
@@ -19,7 +23,8 @@
         </div>
         <div class="mb-3">
             <label for="" class="form-label">Email</label>
-            <input id="email" name="email" type="email" class="form-control" placeholder="ejemplo@gmail.com" tabindex="4">
+            <input id="email" name="email" type="email" class="form-control" placeholder="ejemplo@gmail.com"
+                tabindex="4">
         </div>
         <div class="mb-3">
             <label for="" class="form-label">Sexo</label>
@@ -38,9 +43,19 @@
         </div>
         <div class="mb-3">
             <label for="" class="form-label">Direccion</label>
-            <input type="text" class="form-control" id="direccion" name="direccion" placeholder="1234 Marical scz" tabindex="8">
+            <input type="text" class="form-control" id="direccion" name="direccion" placeholder="1234 Marical scz"
+                tabindex="8">
         </div>
         <a href="/pacientes" class="btn btn-secundary"> Cancelar</a>
         <button type="submit" class="btn btn-primary">Guardar</button>
     </form>
-@endsection
+@stop
+
+@section('css')
+    {{-- Add here extra stylesheets --}}
+    <link rel="stylesheet" href="/css/admin_custom.css">
+@stop
+
+@section('js')
+    
+@stop
