@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'Clinica Dental Rojas',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -171,11 +171,11 @@ return [
     |
     */
 
-    'classes_auth_card' => 'card-outline card-primary',
-    'classes_auth_header' => '',
+    'classes_auth_card' => '',
+    'classes_auth_header' => 'bg-gradient-info',
     'classes_auth_body' => '',
-    'classes_auth_footer' => '',
-    'classes_auth_icon' => '',
+    'classes_auth_footer' => 'text-center',
+    'classes_auth_icon' => 'fa-lg text-info',
     'classes_auth_btn' => 'btn-flat btn-primary',
 
     /*
@@ -302,21 +302,36 @@ return [
         ],
 
         // Sidebar items:
-        [
+        /*[
             'type' => 'sidebar-menu-search',
             'text' => 'Buscar',
-        ],
+        ],*/
         [
             'text' => 'blog',
             'url' => 'admin/blog',
             'can' => 'manage-blog',
         ],
+        ['header' => 'Usuarios'],
         [
-            'text' => 'pages',
-            'url' => 'admin/pages',
+            'text' => 'pacientes',
+            'url' => 'pacientes',
             'icon' => 'far fa-fw fa-file',
-            'label' => 4,
-            'label_color' => 'success',
+            'label' => 'CRUD',
+            'label_color' => 'warning',
+        ],
+        [
+            'text' => 'Odontologos',
+            'url' => 'pacientes',
+            'icon' => 'far fa-fw fa-file',
+            'label' => 'CRUD',
+            'label_color' => 'warning',
+        ],
+        [
+            'text' => 'Recepcionista',
+            'url' => 'pacientes',
+            'icon' => 'far fa-fw fa-file',
+            'label' => 'CRUD',
+            'label_color' => 'warning',
         ],
         ['header' => 'Configuracion de la Cuenta'],
         [
@@ -325,12 +340,12 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'change_password',
+            'text' => 'Cambiar Contraseña',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'multilevel',
+            'text' => 'Mas Opciones',
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [
                 [
@@ -367,19 +382,19 @@ return [
                 ],
             ],
         ],
-        ['header' => 'labels'],
+        ['header' => 'CITAS'],
         [
-            'text' => 'important',
+            'text' => 'IMPORTANTES',
             'icon_color' => 'red',
             'url' => '#',
         ],
         [
-            'text' => 'warning',
+            'text' => 'URGENTES',
             'icon_color' => 'yellow',
             'url' => '#',
         ],
         [
-            'text' => 'information',
+            'text' => 'ATENDIDAS',
             'icon_color' => 'cyan',
             'url' => '#',
         ],

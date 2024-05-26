@@ -7,7 +7,8 @@
 @stop
 
 @section('content')
-<a href="paciente/create" class="btn btn-primary mb-3">REGISTRAR PACIENTE</a>
+
+<a href="pacientes/create" class="btn btn-primary mb-3">REGISTRAR PACIENTE</a>
 
 <table id="pacientes" class="table table-striped table-bordered shadow-lg mt-4" style="width:100%">
     <thead class="bg-primary text-white">
@@ -35,7 +36,7 @@
             <td>{{$paciente->fechanacimiento}}</td>
             <td>{{$paciente->direccion}}</td>
             <td>
-                <form action="{{route('pacientes.destroy',$paciente->id)}}" method="POST">
+                <form action="{{route('pacientes.destroy',$paciente->ci)}}" method="POST">
                     <a href="/pacientes/{{$paciente->ci}}/editar" class="btn btn-info">Editar</a>
                     @csrf
                     @method('DELETE')

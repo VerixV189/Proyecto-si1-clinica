@@ -7,6 +7,9 @@ use App\Models\Paciente;
 
 class PacienteController extends Controller
 {
+    public function __construct(){
+        $this->middleware("auth");
+    }
     /**
      * Display a listing of the resource.
      */
