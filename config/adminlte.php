@@ -313,7 +313,7 @@ return [
         ],
         ['header' => 'Usuarios'],
         [
-            'text' => 'pacientes',
+            'text' => 'Pacientes',
             'url' => 'pacientes',
             'icon' => 'far fa-fw fa-file',
             'label' => 'CRUD',
@@ -321,14 +321,14 @@ return [
         ],
         [
             'text' => 'Odontologos',
-            'url' => 'pacientes',
+            'url' => 'odontologos',
             'icon' => 'far fa-fw fa-file',
             'label' => 'CRUD',
             'label_color' => 'warning',
         ],
         [
             'text' => 'Recepcionista',
-            'url' => 'pacientes',
+            'url' => 'recepcionista',
             'icon' => 'far fa-fw fa-file',
             'label' => 'CRUD',
             'label_color' => 'warning',
