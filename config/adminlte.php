@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Clinica</b>ROJAS',
+    'logo' => '<b>Clinica Dental </b>ROJAS',
     'logo_img' => 'vendor/adminlte/dist/img/logo.jpeg',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
