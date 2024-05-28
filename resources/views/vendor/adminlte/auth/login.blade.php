@@ -78,7 +78,7 @@
     @if($password_reset_url)
         <p class="my-0">
             <a href="{{ $password_reset_url }}">
-                {{ __('Olvidaste la Contraseña ') }}
+                {{ __('Olvidaste la Contraseña') }}
             </a>
         </p>
     @endif

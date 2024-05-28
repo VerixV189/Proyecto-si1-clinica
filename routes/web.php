@@ -8,14 +8,28 @@ use App\Http\Controllers\myspacecontroller;
 use App\Http\Controllers\RegistroController;
 
 Route::get('/', function(){
-    return view('auth.login');
+    return view('home.index');
 });
 
-Route::get('/home', [HomeController::class, 'index']);
+Route::get('/contact', function () {
+    return view('home.contacto'); // El archivo está en resources/views/home/contact.blade.php
+})->name('contact');
+
+Route::get('/service', function () {
+    return view('home.servicio'); // El archivo está en resources/views/home/service.blade.php
+})->name('service');
+
+Route::get('/acerca', function () {
+    return view('home.acercaDe'); // El archivo está en resources/views/home/acerca.blade.php
+})->name('acerca');
+
+//Route::get('/home', [HomeController::class, 'index']);
 
 Route:: resource('pacientes', 'App\Http\Controllers\PacienteController');
 
 Route:: resource('odontologos', 'App\Http\Controllers\OdontologoController');
+
+Route:: resource('recepcionistas', 'App\Http\Controllers\RecepcionistaController');
 
 Route::controller(CursoController::class)->group(function(){
     Route::get('cursos', 'index');
@@ -34,9 +48,10 @@ Route::get('/registro', [RegistroController::class,'index']);
 Route::post('/registro', [RegistroController::class,'store'])->name('registro.store');
 
 
-/* Route::middleware(['auth:sanctum','verified'])->get('/dash', function () {
+ Route::middleware(['auth:sanctum','verified'])->get('/dash', function () {
         return view('dash.index');
-    })->name('dash'); */
+    })->name('dash'); 
+
 Route::get('/dash','App\Http\Controllers\DashboardController@index');
 
 Route::get('/dash/crud', function () {

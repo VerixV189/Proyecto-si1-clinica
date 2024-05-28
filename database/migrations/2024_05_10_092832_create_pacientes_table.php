@@ -20,7 +20,6 @@ return new class extends Migration
             $table->integer('telefono')->nullable();
             $table->date('fechanacimiento');
             $table->text('direccion');
-
             $table->unsignedBigInteger('id_user');
             $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade');
 

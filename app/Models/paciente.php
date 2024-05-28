@@ -20,4 +20,6 @@ class paciente extends Model
         'direccion',
         'id_user'
     ];
+
+    //metods
 }
