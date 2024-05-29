@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Fregg</title>
+  <title>Nosotros - Clinica Dental Rojas</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -40,9 +40,9 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand mr-5" href="index">
-            <img src="img/logo.png" alt="">
+            <img src="img/logoClinica.jpeg" alt="">
             <span>
-              Fregg
+              Clinica Dental Rojas
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -56,13 +56,13 @@
                   <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="acercaDe"> Sobre Nosotros </a>
+                  <a class="nav-link" href="/acercaDe"> Sobre Nosotros </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="servicio"> Sevicios </a>
+                  <a class="nav-link" href="/servicio"> Sevicios </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contacto">Contactanos</a>
+                  <a class="nav-link" href="/contacto">Contacto</a>
                 </li>
               </ul>
               <form class="form-inline">
@@ -85,17 +85,21 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Us
+                Nosotros
               </h2>
             </div>
             <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when
-              looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-              letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-              desktop publishing packages and web page editors now use Lorem Ipsum as their
+              <h3>Clinica Dental Rojas</h3>
+              La Clínica Dental Rojas fue fundada por el Dr. Rojas en la ciudad de Santa Cruz de La Sierra (Bolivia)
+               el día <b>Fecha Aqui.</b>  <br> <br>
+              Contamos con un equipo de profesionales altamente capacitados en todas las especialidades de Odontología, 
+              ponemos a disposición de nuestros pacientes equipos de alta tecnología, tratamientos con los mejores materiales,
+               buscamos satisfacer las necesidades en salud y estética de nuestros pacientes mediante un servicio odontológico de alta calidad.
+                Contamos con ambientes acogedores y cálidos para que usted se sienta seguro y confortable ofreciéndoles instalaciones amplias, 
+                cómodas y seguras. Cumplimos con todas las normas de bioseguridad.
             </p>
             <a href="">
-              Get Started
+              Agendar cita
             </a>
           </div>
         </div>
@@ -115,7 +119,7 @@
     <div class="footer_contact">
       <div class="heading_container">
         <h2>
-          Contact Us
+         Contactanos
         </h2>
       </div>
       <div class="box">
@@ -143,8 +147,8 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      Copyright &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      Copyright &copy; 2024 Todos los derechos reservados por
+      <a href="https://www.instagram.com/cr_21canito/">Ruben Cano</a>
     </p>
   </section>
   <!-- footer section -->

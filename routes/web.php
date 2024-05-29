@@ -8,20 +8,24 @@ use App\Http\Controllers\myspacecontroller;
 use App\Http\Controllers\RegistroController;
 
 Route::get('/', function(){
-    return view('home.index');
+    return view('index');
 });
 
-Route::get('/contact', function () {
+Route::get('/index', function () {
+    return view('home.index'); // El archivo está en resources/views/home/contact.blade.php
+})->name('index');
+
+Route::get('/contacto', function () {
     return view('home.contacto'); // El archivo está en resources/views/home/contact.blade.php
-})->name('contact');
+})->name('contacto');
 
-Route::get('/service', function () {
+Route::get('/servicio', function () {
     return view('home.servicio'); // El archivo está en resources/views/home/service.blade.php
-})->name('service');
+})->name('servicio');
 
-Route::get('/acerca', function () {
+Route::get('/acercaDe', function () {
     return view('home.acercaDe'); // El archivo está en resources/views/home/acerca.blade.php
-})->name('acerca');
+})->name('acercaDe');
 
 //Route::get('/home', [HomeController::class, 'index']);
 

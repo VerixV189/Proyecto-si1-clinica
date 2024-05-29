@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Fregg</title>
+  <title>Contacto - Clinica Dental Rojas</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -39,10 +39,10 @@
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-          <a class="navbar-brand mr-5" href="index.html">
-            <img src="img/logo.png" alt="">
+          <a class="navbar-brand mr-5" href="index">
+            <img src="img/logoClinica.jpeg" alt="">
             <span>
-              Fregg
+              Clinica Dental Rojas
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -56,13 +56,13 @@
                   <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="acercaDe"> Sobre Nosotros </a>
+                  <a class="nav-link" href="/acercaDe"> Sobre Nosotros </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="servicio"> Sevicios </a>
+                  <a class="nav-link" href="/servicio"> Sevicios </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contacto">Contactanos</a>
+                  <a class="nav-link" href="/contacto">Contacto</a>
                 </li>
               </ul>
               <form class="form-inline">
@@ -87,7 +87,7 @@
       <div class="container">
         <div class="heading_container">
           <h2>
-            Let's Get In Touch!
+            Déjanos un Mensaje
           </h2>
         </div>
       </div>
@@ -96,11 +96,11 @@
           <div class="col-md-6">
             <div class="contact_form ">
               <form action="">
-                <input type="text" placeholder="Name ">
+                <input type="text" placeholder="Nombre">
                 <input type="email" placeholder="Email">
-                <input type="text" placeholder="Message" class="message_input">
+                <input type="text" placeholder="Mensaje..." class="message_input">
                 <button>
-                  Send
+                  Enviar
                 </button>
               </form>
             </div>
@@ -123,7 +123,7 @@
     <div class="footer_contact">
       <div class="heading_container">
         <h2>
-          Contact Us
+          Contactanos
         </h2>
       </div>
       <div class="box">
