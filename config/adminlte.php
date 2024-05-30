@@ -336,7 +336,7 @@ return [
         ['header' => 'Configuracion de la Cuenta'],
         [
             'text' => 'Perfil de Usuario',
-            'url' => 'user/profile',
+            'url' => 'users',
             'icon' => 'fas fa-fw fa-user',
         ],
         [

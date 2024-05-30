@@ -42,6 +42,8 @@ Route:: resource('odontologos', 'App\Http\Controllers\OdontologoController');
 
 Route:: resource('recepcionistas', 'App\Http\Controllers\RecepcionistaController');
 
+Route::resource('users', 'App\Http\Controllers\UserController');
+
 Route::controller(CursoController::class)->group(function(){
     Route::get('cursos', 'index');
     Route::get('cursos/create', 'create');    
