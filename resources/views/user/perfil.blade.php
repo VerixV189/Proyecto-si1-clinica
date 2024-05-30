@@ -17,11 +17,15 @@
                             <img src="img/perfil.svg" class="profile-image w-25 h-25" alt="Imagen de perfil">
                             <h2>Nombre del Usuario</h2>
                             <p>correo@ejemplo.com</p>
-                            <button class="btn btn-primary">Editar Perfil</button>
+                            <div>
+                                <a href="{{ asset('pacientes/create') }}" type="sumit">Editar Perfil</a>
+                            </div>
+                            
                             <div class="profile-header">
-                                <button type="button" class="btn btn-secondary mt-2" data-toggle="modal" data-target="#exampleModal">
+                                <button  type="button" class="btn btn-secondary mt-2" data-toggle="modal" data-target="#exampleModal">
                                     Cambiar Contraseña
                                 </button>
+                                <a href="{{ asset('update-password-form') }}" type="sumit">Cambiar Contraseña</a>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">

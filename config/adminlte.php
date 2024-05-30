@@ -261,8 +261,8 @@ return [
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
-    'password_reset_url' => 'password/reset',
-    'password_email_url' => 'password/email',
+    'password_reset_url' => 'passwords/reset',
+    'password_email_url' => 'passwords/email',
     'profile_url' => false,
 
     /*
@@ -340,7 +340,7 @@ return [
         ],
         [
             'text' => 'Cambiar Contraseña',
-            'url' => 'admin/settings',
+            'url' => 'profiles',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [

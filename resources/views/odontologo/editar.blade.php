@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('title', 'Editar-Odontologo')
 
 @section('content_header')
     <h1>EDITAR REGISTROS DE ODONTOLOGO</h1>

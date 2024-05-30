@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Recepcionista')
+@section('title', 'Registrar-Recepcionista')
 
 @section('content_header')
     <h1>REGISTRAR NUEVO RECEPCIONISTA</h1>

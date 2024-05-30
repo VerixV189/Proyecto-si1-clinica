@@ -96,16 +96,15 @@
                   <img src="img/s-2.png" alt="">
                 </div>
                 <h4>
-                  odontopediatría
+                  ODONTOPEDIATRIA
                 </h4>
                 <p>
-                  , , cirugía, carillas,
-                  coronas de porcelana y zirconio, restauraciones de resina, 
-                  pulpectomía, pulpotomía, endodoncia.
+                  Nuestro consultorio está diseñado para ser acogedor y agradable para los niños. 
+                  Contamos con una sala de espera equipada con juguetes y libros para mantener a los pequeños 
+                  entretenidos y relajados antes de su cita. Además, nuestro personal está entrenado para manejar 
+                  a los niños con paciencia y cariño, asegurando que cada visita sea una experiencia positiva.
                 </p>
-                <a href="">
-                  Read More
-                </a>
+                <!--a href=""> Read More </a -->
               </div>
             </div>
             <div class="col-md-6">
@@ -114,17 +113,15 @@
                   <img src="img/s-2.png" alt="">
                 </div>
                 <h4>
-                  estética
+                  ESTETICA
                 </h4>
                 <p>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when
-                  looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                  of
-                  letters, as opposed to using 'Content here, content here', making it look like
+                  Cada paciente es único, por lo que en nuestra clínica adoptamos un enfoque personalizado para la estética dental.
+                  Evaluamos cuidadosamente las necesidades individuales y diseñamos un plan de tratamiento que se ajuste a las 
+                  expectativas y objetivos de cada paciente. Nuestro equipo de dentistas estéticos tiene una gran experiencia y 
+                  habilidad para lograr resultados que realcen tu belleza natural.
                 </p>
-                <a href="">
-                  Read More
-                </a>
+                <!--a href=""> Read More </a -->
               </div>
             </div>
           </div>
@@ -135,18 +132,15 @@
                   <img src="img/s-2.png" alt="">
                 </div>
                 <h4>
-                  ortodoncia
+                  ORTODONCIA
                 </h4>
                 <p>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when
-                  looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                  of
-                  letters, as opposed to using 'Content here, content here', making it look like now use Lorem Ipsum as
-                  their default model text,
+                  Utilizamos tecnología de vanguardia en todos nuestros tratamientos de ortodoncia, 
+                  incluyendo escáneres digitales para crear modelos precisos de tus dientes y software
+                   avanzado para planificar y monitorizar el progreso de tu tratamiento. Esto nos permite
+                    ofrecer tratamientos más cómodos, eficaces y personalizados.
                 </p>
-                <a href="">
-                  Read More
-                </a>
+                <!--a href=""> Read More </a -->
               </div>
             </div>
             <div class="col-md-6">
@@ -155,17 +149,14 @@
                   <img src="img/s-2.png" alt="">
                 </div>
                 <h4>
-                  endodoncia
+                  ENDODONCIA
                 </h4>
                 <p>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when
-                  looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                  of
-                  letters, as opposed to using 'Content here, content here', making it look like
+                  Sabemos que los tratamientos endodónticos pueden generar ansiedad, por eso hemos creado un ambiente
+                  relajante en nuestra clínica. Nuestro personal está entrenado para manejar tus preocupaciones y 
+                  asegurar que tu experiencia sea lo más cómoda y libre de estrés posible.
                 </p>
-                <a href="">
-                  Read More
-                </a>
+                <!--a href="">Read More</a -->
               </div>
             </div>
           </div>
@@ -210,7 +201,7 @@
     <section class="container-fluid footer_section">
       <p>
         Copyright &copy; 2024 Todos los derechos reservados por
-        <a href="https://www.instagram.com/cr_21canito/">Ruben Cano</a>
+        <a href="#">Ruben Cano</a>
       </p>
     </section>
     <!-- footer section -->

@@ -150,7 +150,7 @@
   <section class="container-fluid footer_section">
     <p>
       Copyright &copy; 2024 Todos los derechos reservados por
-      <a href="https://www.instagram.com/cr_21canito/">Ruben Cano</a>
+      <a href="#">Ruben Cano</a>
     </p>
   </section>
   <!-- footer section -->

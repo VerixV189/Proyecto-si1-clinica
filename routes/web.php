@@ -44,6 +44,10 @@ Route:: resource('recepcionistas', 'App\Http\Controllers\RecepcionistaController
 
 Route::resource('users', 'App\Http\Controllers\UserController');
 
+Route::get('users/auth', function () {
+    return view('profile.update-password-form');
+});
+
 Route::controller(CursoController::class)->group(function(){
     Route::get('cursos', 'index');
     Route::get('cursos/create', 'create');    
