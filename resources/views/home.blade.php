@@ -26,7 +26,7 @@
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                   Ingresos</div>
+                                   PERFIL DE USUARIO</div>
                                 <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
                             </div>
                             <div class="col-auto">
@@ -44,7 +44,7 @@
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                    Ingresos (Anual)</div>
+                                    PAGOS </div>
                                 <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
                             </div>
                             <div class="col-auto">
@@ -61,7 +61,7 @@
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Citas
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">CITAS
                                 </div>
                                 <div class="row no-gutters align-items-center">
                                     <div class="col-auto">
@@ -90,9 +90,37 @@
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                    Respuestas Pendientes</div>
-                                <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                 <!-- Botón que abre el modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Registrar cita Aquí
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="example ModalLabel">Registrar Cita</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Fecha</label>
+                                                <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Hora</label>
+                                                <input type="time" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Guardar</button>
+                                            <button type="button" class="btn btn-secondary mr-4" data-dismiss="modal">Cerrar</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                             </div>
                             <div class="col-auto">
                                 <i class="fas fa-comments fa-2x text-gray-300"></i>
@@ -238,37 +266,7 @@
                             <img class="img-fluid rounded-30 " style="width: 25rem;"
                                 src="img/RegistrarCita.svg" alt="...">
                         </div>
-                        <!-- Botón que abre el modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Registrar cita Aquí
-                        </button>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="example ModalLabel">Registrar Cita</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Fecha</label>
-                                                <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputPassword1">Hora</label>
-                                                <input type="time" class="form-control" id="exampleInputPassword1">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary">Guardar</button>
-                                            <button type="button" class="btn btn-secondary mr-4" data-dismiss="modal">Cerrar</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
