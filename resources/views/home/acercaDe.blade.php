@@ -56,7 +56,7 @@
                   <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/acercaDe"> Sobre Nosotros </a>
+                  <a class="nav-link" href="/acercaDe">Nosotros</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/servicio"> Sevicios </a>
@@ -90,13 +90,15 @@
             </div>
             <p>
               <h3>Clinica Dental Rojas</h3>
-              La Clínica Dental Rojas fue fundada por el Dr. Rojas en la ciudad de Santa Cruz de La Sierra (Bolivia)
-               el día <b>Fecha Aqui.</b>  <br> <br>
-              Contamos con un equipo de profesionales altamente capacitados en todas las especialidades de Odontología, 
-              ponemos a disposición de nuestros pacientes equipos de alta tecnología, tratamientos con los mejores materiales,
-               buscamos satisfacer las necesidades en salud y estética de nuestros pacientes mediante un servicio odontológico de alta calidad.
-                Contamos con ambientes acogedores y cálidos para que usted se sienta seguro y confortable ofreciéndoles instalaciones amplias, 
-                cómodas y seguras. Cumplimos con todas las normas de bioseguridad.
+              Clínica dental “Rojas” ubicada en la Av. Moscú 6to anillo, C/totai #55, B/30 de agosto. <br><br>
+              Viene operando desde hace 10 años aproximadamente, con la decisión del Dr. Carlos Rojas Gonzales 
+              como propietario de la empresa, la cual está funcionando hasta la actualidad.
+              La historia de nuestra clínica está arraigada en el compromiso familiar. Comenzó como el sueño del 
+              Dr. Carlos Rojas, quien buscaba establecer su propio espacio de trabajo. Con el tiempo, 
+              este sueño tomó forma y creció, a medida que sus hijos se graduaban en sus respectivas profesiones y
+              se unían al equipo en sus áreas especializadas. Recientemente, hemos sumado a nuestro 
+              equipo a una recepcionista, quien se ha integrado para ofrecer un servicio aún más completo.
+
             </p>
             <a href="">
               Agendar cita
@@ -105,7 +107,7 @@
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <img src="img/about-img.png" alt="">
+            <img src="img/sobreNosotros.jpg" alt="">
           </div>
         </div>
       </div>

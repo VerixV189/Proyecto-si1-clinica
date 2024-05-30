@@ -56,7 +56,7 @@
                   <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/acercaDe"> Sobre Nosotros </a>
+                  <a class="nav-link" href="/acercaDe">Nosotros</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/servicio"> Sevicios </a>
@@ -99,7 +99,7 @@
                 <input type="text" placeholder="Nombre">
                 <input type="email" placeholder="Email">
                 <input type="text" placeholder="Mensaje..." class="message_input">
-                <button>
+                <button>     
                   Enviar
                 </button>
               </form>

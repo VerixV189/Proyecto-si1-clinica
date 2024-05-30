@@ -56,7 +56,7 @@
                     <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/acercaDe"> Sobre Nosotros </a>
+                    <a class="nav-link" href="/acercaDe">Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/servicio"> Sevicios </a>
@@ -93,16 +93,15 @@
             <div class="col-md-6">
               <div class="box">
                 <div class="img-box">
-                  <img src="img/s-1.png" alt="">
+                  <img src="img/s-2.png" alt="">
                 </div>
                 <h4>
-                  Written with Love
+                  odontopediatría
                 </h4>
                 <p>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when
-                  looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                  of
-                  letters, as opposed to using 'Content here, content t,
+                  , , cirugía, carillas,
+                  coronas de porcelana y zirconio, restauraciones de resina, 
+                  pulpectomía, pulpotomía, endodoncia.
                 </p>
                 <a href="">
                   Read More
@@ -115,7 +114,7 @@
                   <img src="img/s-2.png" alt="">
                 </div>
                 <h4>
-                  Fast Turnaround
+                  estética
                 </h4>
                 <p>
                   It is a long established fact that a reader will be distracted by the readable content of a page when
@@ -133,10 +132,10 @@
             <div class="col-md-6">
               <div class="box">
                 <div class="img-box">
-                  <img src="img/s-3.png" alt="">
+                  <img src="img/s-2.png" alt="">
                 </div>
                 <h4>
-                  Up to Date
+                  ortodoncia
                 </h4>
                 <p>
                   It is a long established fact that a reader will be distracted by the readable content of a page when
@@ -153,10 +152,10 @@
             <div class="col-md-6">
               <div class="box align-items-end align-items-md-start text-right text-md-left">
                 <div class="img-box">
-                  <img src="img/s-4.png" alt="">
+                  <img src="img/s-2.png" alt="">
                 </div>
                 <h4>
-                  Premium Content
+                  endodoncia
                 </h4>
                 <p>
                   It is a long established fact that a reader will be distracted by the readable content of a page when

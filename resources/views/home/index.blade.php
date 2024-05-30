@@ -56,7 +56,7 @@
                 <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/acercaDe"> Sobre Nosotros </a>
+                <a class="nav-link" href="/acercaDe">Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/servicio"> Sevicios </a>
