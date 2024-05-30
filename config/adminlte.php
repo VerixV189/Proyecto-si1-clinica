@@ -328,7 +328,7 @@ return [
         ],
         [
             'text' => 'Recepcionista',
-            'url' => 'recepcionista',
+            'url' => 'recepcionistas',
             'icon' => 'far fa-fw fa-file',
             'label' => 'CRUD',
             'label_color' => 'warning',

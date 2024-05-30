@@ -64,8 +64,8 @@
             </ul>
             <form class="form-inline">
              
-              <a class="nav-link" href="#">Registrate</a>
-              <a class="nav-link" href="#">Iniciar</a>
+              <a class="nav-link" href="/auth/register">Registrate</a>
+              <a class="nav-link" href="/auth/login">Iniciar</a>
             </form>
           </div>
         </div>

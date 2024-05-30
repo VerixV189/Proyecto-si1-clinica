@@ -67,8 +67,8 @@
             </ul>
             <form class="form-inline">
              
-              <a class="nav-link" href="#">Registrate</a>
-              <a class="nav-link" href="#">Iniciar</a>
+              <a class="nav-link" href="/auth/register">Registrate</a>
+              <a class="nav-link" href="/auth/login">Iniciar</a>
             </form>
           </div>
         </div>
@@ -184,7 +184,7 @@
 <section class="container-fluid footer_section">
   <p>
     Copyright &copy; 2024 Todos los derechos reservados por
-    <a href="https://www.instagram.com/cr_21canito/">Ruben Cano</a>
+    <a href="#">Ruben Cano</a>
   </p>
 </section>
 <!-- footer section -->

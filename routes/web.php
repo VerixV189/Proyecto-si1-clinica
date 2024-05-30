@@ -27,7 +27,14 @@ Route::get('/acercaDe', function () {
     return view('home.acercaDe'); // El archivo está en resources/views/home/acerca.blade.php
 })->name('acercaDe');
 
-//Route::get('/home', [HomeController::class, 'index']);
+ Route::get('/auth/login', function(){
+    return view('auth.login');
+ });
+ Route::get('/auth/register', function () {
+    return view('auth.register');
+ });
+
+Route::resource('home', 'App\Http\Controllers\HomeController');
 
 Route:: resource('pacientes', 'App\Http\Controllers\PacienteController');
 
@@ -41,7 +48,7 @@ Route::controller(CursoController::class)->group(function(){
     Route::get('cursos/{curso}/{categoria?}', 'show');
 });
 
-Route::get('/login', LoginController::class);
+
 // Route::get('cursos/{variable}', function($variable) {
 //     return "Bienvenido al curso: $variable";
 // });
