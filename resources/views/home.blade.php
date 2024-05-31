@@ -84,51 +84,61 @@
                 </div>
             </div>
 
-            <!-- Pending Requests Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-left-warning shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                 <!-- Botón que abre el modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Registrar cita Aquí
-                        </button>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="example ModalLabel">Registrar Cita</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Fecha</label>
-                                                <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputPassword1">Hora</label>
-                                                <input type="time" class="form-control" id="exampleInputPassword1">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary">Guardar</button>
-                                            <button type="button" class="btn btn-secondary mr-4" data-dismiss="modal">Cerrar</button>
-                                        </form>
-                                    </div>
-                                </div>
+            <div class="col-xl-3 col-md-6 mb-4 ">
+
+                <div class="card shadow mb-4">
+                    <!-- Card Header - Dropdown -->
+                    <div class="card-header py-3 d-flex flex-row align-items-center">
+                        <h6 class="m-1 font-weight-bold text-primary">Agendar Nueva Cita</h6>
+                        
+                        <div class="dropdown no-arrow">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                aria-labelledby="dropdownMenuLink">
+                                <div class="dropdown-header">Opciones:</div>
+                                <a class="dropdown-item" href="#">Reprogramar Cita</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Cancelar Cita</a>
                             </div>
                         </div>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fas fa-comments fa-2x text-gray-300"></i>
+                    </div>
+                    <!-- Card Body -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Registrar cita Aquí
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="example ModalLabel">Registrar Cita</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Fecha</label>
+                                            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Hora</label>
+                                            <input type="time" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Guardar</button>
+                                        <button type="button" class="btn btn-secondary mr-4" data-dismiss="modal">Cerrar</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
 
         <!-- Content Row -->
@@ -142,20 +152,7 @@
                     <div
                         class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                         <h6 class="m-0 font-weight-bold text-primary">Citas Atendidas</h6>
-                        <div class="dropdown no-arrow">
-                            <a class="dropdown-toggle" href="#" role="button" id="dropdown MenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                aria-labelledby="dropdownMenuLink">
-                                <div class="dropdown-header">Opciones:</div>
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
+                        
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
@@ -170,40 +167,16 @@
             <div class="col-xl-4 col-lg-5">
                 <div class="card shadow mb-4">
                     <!-- Card Header - Dropdown -->
-                    <div
-                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                         <h6 class="m-0 font-weight-bold text-primary">Historial de Citas</h6>
-                        <div class="dropdown no-arrow">
-                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                aria-labelledby="dropdownMenuLink">
-                                <div class="dropdown-header">Opciones:</div>
-                                <a class="dropdown-item" href="#">Registrar Cita</a>
-                                <a class="dropdown-item" href="#">Reprogramar Cita</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Cancelar Cita</a>
-                            </div>
-                        </div>
+                    
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
                         <div class="chart-pie pt-4 pb-2">
                             <canvas id="myPieChart"></canvas>
                         </div>
-                        <div class="mt-4 text-center small">
-                            <span class="mr-2">
-                                <i class="fas fa-circle text-success"></i> Atendidas
-                            </span>
-                            <span class="mr-2">
-                                <i class="fas fa-circle text-primary"></i> En espera
-                            </span>
-                            <span class="mr-2">
-                                <i class="fas fa-circle text-danger"></i> Canceladas
-                            </span>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -259,7 +232,7 @@
                 <!-- Illustrations -->
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Registrar Nueva Cita</h6>
+                        <h6 class="m-0 font-weight-bold text-primary">Asignar Nuevo Rol</h6>
                     </div>
                     <div class="card-body">
                         <div class="text-center ">

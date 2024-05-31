@@ -15,7 +15,8 @@
                         <!-- Profile Header -->
                         <div class="profile-header ">
                             <img src="img/perfil.svg" class="profile-image w-25 h-25" alt="Imagen de perfil">
-                            <h2>Nombre del Usuario</h2>
+                            
+                            <h2 id="nombreUsuario">Nombre del Usuario</h2>
                             <p>correo@ejemplo.com</p>
                             <div>
                                 <a href="{{ asset('pacientes/create') }}" type="sumit">Editar Perfil</a>

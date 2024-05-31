@@ -41,6 +41,8 @@ class User extends Authenticatable
         'two_factor_secret',
     ];
 
+    
+
     /**
      * The accessors to append to the model's array form.
      *
