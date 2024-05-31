@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class tratamiento extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'ci_paciente',
+        'id_servicio',
+        'fechainicio',
+        'fechafin'
+    ];
 }

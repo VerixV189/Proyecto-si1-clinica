@@ -5,13 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class servicio extends Model
+class historial_clinico extends Model
 {
     use HasFactory;
 
     protected $fillable = [
         'descripcion',
-        'precio',
-        'duracion'
+        'ci_paciente'
     ];
 }

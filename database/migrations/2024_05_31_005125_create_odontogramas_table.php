@@ -11,15 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('inventarios', function (Blueprint $table) {
+        Schema::create('odontogramas', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre',20);
-            $table->integer('cantidad');
-            $table->date('fechaentrada');
-            $table->date('fechasalida');
-            $table->unsignedBigInteger('id_user');
+            $table->unsignedBigInteger('id_historialclinico');
 
-            $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('id_historialclinico')->references('id')->on('historial_clinicos')->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -29,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('inventarios');
+        Schema::dropIfExists('odontogramas');
     }
 };

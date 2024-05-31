@@ -5,13 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class servicio extends Model
+class pieza_dental extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'descripcion',
-        'precio',
-        'duracion'
+        'tipodiente',
+        'id_odontograma',
+        'id_estadopieza',
+        'id_tipopieza'
     ];
 }

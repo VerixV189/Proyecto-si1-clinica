@@ -11,15 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('inventarios', function (Blueprint $table) {
+        Schema::create('historial_clinicos', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre',20);
-            $table->integer('cantidad');
-            $table->date('fechaentrada');
-            $table->date('fechasalida');
-            $table->unsignedBigInteger('id_user');
+            $table->text('descripcion')->nullable();
+            $table->unsignedBigInteger('ci_paciente');
 
-            $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('ci_paciente')->references('id')->on('pacientes')->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -29,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('inventarios');
+        Schema::dropIfExists('historial_clinicos');
     }
 };
